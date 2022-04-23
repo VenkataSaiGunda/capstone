@@ -7,7 +7,6 @@ import numpy as np
 import pandas as pd
 from geopy.geocoders import Nominatim
 def app():
-    model_url = 'https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_north_america_V1/1'
     labels = "landmarks_classifier_north_america_V1_label_map.csv"
 
     df = pd.read_csv(labels)
